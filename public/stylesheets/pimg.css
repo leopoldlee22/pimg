@@ -1,0 +1,29 @@
+body{
+
+}
+div{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+}
+
+
+div.image_window{
+    background-color: #cccccc;
+    width: 500px;
+    height: 500px;
+}
+
+div.image_window img{
+    margin-top: 50px;
+    margin-left:50px;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+div.pimg{
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='/stylesheets/pimg.css'>
+</head>
+<body>
+    <h3>Process Image Demo</h3>
+    <div class='main'>
+        <div class='image_window'>
+            <img id='imginst' src='' />
+        </div>
+        <div class='button_docker'>
+            <input type='button' name='btn_switch' value='switch' onclick='switch_img()' />
+            <input type='button' name='btn_rmwm' value='remove white margin' onclick='rmwm_img()' />
+            <input type='button' name='btn_vflip' value='vertical flip' onclick='vflip_img()' />
+            <input type='button' name='btn_hflip' value='horizontal flip' onclick='hflip_img()' />
+            <input type='button' name='btn_rotate_clockwise' value='rotate +90d' onclick='rotate_img_cw()' />
+            <input type='button' name='btn_rotate_anticlockwise' value='rotate -90d' onclick='rotate_img_acw()' />
+        </div>
+    </div>
+</body>
+<script src='/javascripts/leopoldlee22.tool.js'></script>
+<script src='/javascripts/pimg.js'></script>
+</html>
