@@ -12,7 +12,8 @@
         </div>
         <div class='button_docker'>
             <input type='button' name='btn_switch' value='switch' onclick='switch_img()' />
-            <input type='button' name='btn_rmwm' value='remove white margin' onclick='rmwm_img()' />
+            <input type='button' name='btn_rmwm' value='remove white margin without resizing' onclick='rmwm_img( false )' />
+            <input type='button' name='btn_rmwm' value='remove white margin and resize' onclick='rmwm_img( true )' />
             <input type='button' name='btn_vflip' value='vertical flip' onclick='vflip_img()' />
             <input type='button' name='btn_hflip' value='horizontal flip' onclick='hflip_img()' />
             <input type='button' name='btn_rotate_clockwise' value='rotate +90d' onclick='rotate_img_cw()' />

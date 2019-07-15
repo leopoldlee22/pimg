@@ -24,11 +24,11 @@ var switch_img = function () {
     load_img( img_dom_id, img_src_list[ current_img_src_index ]);
 }
 
-var rmwm_img = function () {
+var rmwm_img = function ( auto_resize ) {
     var img = document.getElementById( img_dom_id )
     if ( null == img ) return;
 
-	var base64str = leopoldlee22.tool.pimg.remove_white_margin( img )
+	var base64str = leopoldlee22.tool.pimg.remove_white_margin( img, auto_resize )
 	if ( base64str )
     	load_img( img_dom_id, base64str );
 	
